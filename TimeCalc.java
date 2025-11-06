@@ -1,6 +1,5 @@
 public class TimeCalc {
     public static void main(String[] args) {
-        // Replace this comment with your code
         int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
         int minuts = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         int newMinuts = (minuts + Integer.parseInt("" + args[1]));
