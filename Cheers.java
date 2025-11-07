@@ -1,7 +1,6 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	    // Replace this comment with your code
             String name = "" + args[0];
             int cheerCount = Integer.parseInt(args[1]);
             String lettersForAn = "AEFHILMNORSX";
