@@ -1,10 +1,6 @@
 // Demonstrates the Collatz conjecture.
-
-import java.lang.classfile.instruction.StackInstruction;
-
 public class Collatz {
 	public static void main(String args[]) {
-	    // Replace this comment with your code
 		int n = Integer.parseInt(args[0]);
 		String vORc = "" + args[1];
 		if(vORc.equals("v")) {
