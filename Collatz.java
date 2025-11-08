@@ -16,7 +16,7 @@ public class Collatz {
 					if(sum == 1)  notOne = false;
 					count++;
 				}
-				System.out.println(" (" + count + ")");
+				System.out.println("(" + count + ")");
 			}
 			System.out.println("Every one of the first " + n + " hailstone sequences reached 1.");
 		}
